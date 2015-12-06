@@ -146,7 +146,7 @@ public class TokenStream {
                     if (c=='d') { X="delete";id=true; }
                     else if (c=='r') { X="return";id=true; }
                     break partial;
-                case 'h': X="throws";id=true; break partial;
+                //case 'h': X="throws";id=true; break partial;
                 case 'm': X="import";id=true; break partial;
                 case 'o': X="double";id=true; break partial;
                 case 't': X="static";id=true; break partial;
